@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+  background-image: url("https://peasandcrayons.com/wp-content/uploads/2014/07/mexian-veggie-burgers-recipe-.jpg"), url("https://shortgirltallorder.com/wp-content/uploads/2020/01/black-bean-quinoa-veggie-bruger-ingredients.jpg");
+margin:0;
+}
+
+
+li {
+  display: inline;
+}
+
+a, button {
+  text-decoration: none;
+  border: 1px black dotted;
+  padding: 10px;
+  margin: 6px;
+  color: black;
+  border-radius: 5px;
+  background: white;
+  display: table;
+}
+
+nav a {
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a:hover, button:hover {
+  border: 1px black solid;
+  border-radius: 5px;
+  background: lightgoldenrodyellow;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h1{
+  color: white;
+}
+.pic {
+  width: calc(100% - 20px);
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+.frame {
+  padding: 6px;
+}
+
+.city {
+  margin: 30px;
+  border: 1px black dotted;
+  border-radius: 5px;
+  background: white;
+}
+
+
+.city p {
+  margin: 10px;
+}
+.foot-content{
+font-size: 15px;
+text-align: center;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  background-image: url("https://peasandcrayons.com/wp-content/uploads/2014/07/mexian-veggie-burgers-recipe-.jpg"), url("https://shortgirltallorder.com/wp-content/uploads/2020/01/black-bean-quinoa-veggie-bruger-ingredients.jpg");
+}
+
+.margin-header{
+  margin-top: 150px;
+}
+
+form{
+  display: table;
+  margin: 0 auto;
+}
+
+label{
+  display: block;
+}
+
+input, select, textarea{
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.sprung {visibility: hidden; height: 0px !important; position: absolute; margin: -160px;}
